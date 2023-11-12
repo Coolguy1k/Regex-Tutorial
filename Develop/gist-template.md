@@ -10,6 +10,33 @@ Matching an Email – /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
 ## Table of Contents
 
+
+
+## Regex Components
+
+### Anchors
+
+### Quantifiers
+
+### OR Operator
+
+### Character Classes
+
+### Flags
+
+### Grouping and Capturing
+
+### Bracket Expressions
+
+### Greedy and Lazy Match
+
+### Boundaries
+
+### Back-references
+
+### Look-ahead and Look-behind
+
+
 - [Anchors](#anchors)
 
 Anchors include symbols like a caret and a dollar sign at the end of the string or \A letter to describe word boundaries or lack thereof. The \letter means being a or end of a string. About anchors, an example of an anchor would be a carrot a $. Anchors or a way of telling you where you are at, so basically, is it that start or the end? \A refers to the start of a string. It is probably important to note as we start to talk about anything to do with regex that regex can vary a little bit depending on which language you are looking at. Some characters are the same across multiple languages and have the same meaning, but that is not true for all of them, so it is to find good references. In the documentation I looked at, some symbols or characters or tokens had notes with them saying all engines except JavaScript, or this except for Ruby or all of these are the same depending on the language, so it is important to watch out for that. Quantifiers Examples of regular expressions quantifiers are *, +, ?, {3}, {4,7}, {5,}.
@@ -42,36 +69,25 @@ Bracket expressions, there is a great article I would suggest (link at the botto
 
 Greedy and Lazy Match Greedy and lazy matches. One of the easiest to understand to describe greedy and lazy matches was from the answer to a stack overflow question. A greedy match will look for the longest possible string, but a lazy match will look for the shortest one. https://stackoverflow.com/questions/2301285/what-do-lazy-and-greedy-mean-in-the-context-of-regular-expressions https://javascript.info/regexp-greedy-and-lazy https://www.w3docs.com/learn-javascript/greedy-and-lazy-quantifiers.html
 
-
+![Greedy and Lazy Match](Regex-Tutorial\Assets\Greazy.png)
 
 - [Boundaries](#boundaries)
+![](../Assets/bou.png))
+
+Word boundary, exhibited with a (\b) it is equivalent to an anchor. It tells the user that this is a word boundary. It is a way to declare here a word/this is a word boundary. Example “fish” within the parenthesis is a word. If a particular regex declared, with anchors, “this is the first of a regex string,” using a ^ carrot, or the end of a string with the dollar sign, then a space or place is being declared. \b asks the programing language to look for that whole word. for example, if we said, please find the entire word “fish.” There are more complexities involved, but that’s a basic idea. https://www.javascripttutorial.net/regular-expression-word-boundaries/
+
 - [Back-references](#back-references)
+
+Back-references What does a back-reference look like? It is typically a \ followed by single-digit. Back-reference is a command, which refers to something that already happened or a previous part of a matched regular expression. You could make a better preference by name or number; basically, what you are doing is you are referencing a named group, and you would have a bag/and a K then the name of that group, for example.
+
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
-## Regex Components
-
-### Anchors
-
-### Quantifiers
-
-### OR Operator
-
-### Character Classes
-
-### Flags
-
-### Grouping and Capturing
-
-### Bracket Expressions
-
-### Greedy and Lazy Match
-
-### Boundaries
-
-### Back-references
-
-### Look-ahead and Look-behind
-
-## Author
+Look ahead and look behinds allows how matches get handled when using regular expressions. I looked at the website regex buddy also says regular Dash expression .info, and Specifically, I looked at look-ahead and look-behind zero-length assertions on this website. Look ahead and look behinds, also known as look around assertions, are similar to a start and end of the line or anchors. However, look around can match characters, and then they return a result of either a match or no match.
 
 A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+## Author
+![Alt text](../Assets/IMG_20220403_113652_578.jpg)
+
+Github: https://github.com/Coolguy1k 
+
+Email: stlegerchrisly@gmail.com
