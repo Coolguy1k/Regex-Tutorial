@@ -84,7 +84,7 @@ Back-references What does a back-reference look like? It is typically a \ follow
 
 Look ahead and look behinds allows how matches get handled when using regular expressions. I looked at the website regex buddy also says regular Dash expression .info, and Specifically, I looked at look-ahead and look-behind zero-length assertions on this website. Look ahead and look behinds, also known as look around assertions, are similar to a start and end of the line or anchors. However, look around can match characters, and then they return a result of either a match or no match.
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+
 ## Author
 ![Alt text](../Assets/IMG_20220403_113652_578.jpg)
 
